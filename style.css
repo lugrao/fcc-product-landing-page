@@ -49,6 +49,8 @@ body {
 
 #nav-bar {
   position: fixed;
+  z-index: 1;
+
   left: 0;
   width: 100%;
   background-color: white;
@@ -58,8 +60,7 @@ body {
 }
 
 .nav-link {
-  /* position: relative;
-  z-index: 1; */
+  position: relative;
   color: #060061;
   font-size: 0.8rem;
   font-weight: bold;
@@ -134,19 +135,17 @@ section {
 }
 
 #verte {
-  width: 75%;
+  width: 95%;
 }
 
 .video-container {
   position: relative;
-  z-index: -1;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
 }
 
 iframe {
-  /* width: 100%; */
   position: absolute;
   top: 0;
   left: 0;
@@ -154,7 +153,6 @@ iframe {
   right: 0;
   width: 100%;
   height: 100%;
-  z-index: -2;
 }
 
 @media (min-width: 1046px) {
@@ -212,5 +210,9 @@ iframe {
   #que-ofrecemos img {
     grid-area: img;
     align-self: center;
+  }
+
+  #verte {
+    width: 75%;
   }
 }
