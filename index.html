@@ -15,9 +15,11 @@
   <body>
     <header id="header">
       <nav id="nav-bar">
-        <div class="logo">
+        <div class="logo" onclick="aInicio()">
           <img id="header-img" src="img/logo.jpeg" alt="logo-superheroe" />
-          <span id="header-titulo">¡TRAJES DE SUPERHÉROES!</span>
+          <span id="header-titulo" href="#">
+              ¡TRAJES DE SUPERHÉROES!
+          </span>
         </div>
         <a href="#que-ofrecemos" class="nav-link">Qué ofrecemos</a>
         <a href="#verte" class="nav-link">Cómo vas a verte</a>
@@ -146,6 +148,10 @@
       function cambiarTexto(event) {
         event.preventDefault();
         document.getElementById("redes").innerHTML = "¡No tenemos!";
+      }
+
+      function aInicio() {
+        window.location.href = "#";
       }
     </script>
   </body>
