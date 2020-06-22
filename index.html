@@ -137,7 +137,15 @@
     </section>
 
     <footer>
-      <p>footer</p>
+      <hr />
+      <a href="no tenemos jeje" id="redes" onclick="cambiarTexto(event)">Redes sociales</a>
+      <p class="copyright">Copyright 2020, Altos Trajes.</p>
     </footer>
+    <script>
+      function cambiarTexto(event) {
+        event.preventDefault();
+        document.getElementById("redes").innerHTML = "¡No tenemos!";
+      }
+    </script>
   </body>
 </html>

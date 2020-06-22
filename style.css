@@ -15,7 +15,7 @@ body {
   display: grid;
   justify-items: center;
   font-family: "Open Sans", sans-serif;
-  background-color: rgb(254.5, 254.5, 254.5);
+  background-color: #ffffff;
 }
 
 #header {
@@ -60,7 +60,8 @@ body {
   box-shadow: 0 5px 50px -47px;
 }
 
-.nav-link {
+/* .nav-link */
+a {
   position: relative;
   color: #060061;
   font-size: 0.8rem;
@@ -69,11 +70,13 @@ body {
   padding: 0.25rem;
 }
 
-#nav-bar a:visited {
+/* #nav-bar */
+ a:visited {
   color: #060061;
 }
 
-#nav-bar a:hover {
+/* #nav-bar */
+ a:hover {
   color: #090083;
 }
 
@@ -208,6 +211,31 @@ iframe {
 .oferta button {
   padding: 0.4rem 1rem;
 }
+
+footer {
+  width: 100%;
+  margin: 3rem 0 0;
+  padding: 3rem 0 0.7rem;
+  text-align: center;  
+}
+
+footer hr {
+  width: 40%;
+  height: 1.5px;
+  border-width: 0;
+  color: grey;
+  background-color: #dddddd;
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+
+
+
 
 @media (min-width: 1046px) {
   #header {
