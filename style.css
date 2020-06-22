@@ -60,7 +60,6 @@ body {
   box-shadow: 0 5px 50px -47px;
 }
 
-/* .nav-link */
 a {
   position: relative;
   color: #060061;
@@ -70,12 +69,10 @@ a {
   padding: 0.25rem;
 }
 
-/* #nav-bar */
 a:visited {
   color: #060061;
 }
 
-/* #nav-bar */
 a:hover {
   color: #090083;
 }
@@ -183,7 +180,7 @@ iframe {
   width: 14rem;
   padding: 0.01rem 0.01rem 0.5rem;
   border-style: solid;
-  border-width: 1.5px;
+  border-width: 1px;
   border-color: #060061;
 }
 
@@ -212,7 +209,6 @@ iframe {
 
 .oferta button {
   padding: 0.4rem 1rem;
-  /* justify-self: start; */
   align-self: end;
 }
 
