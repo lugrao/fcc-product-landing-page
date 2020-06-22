@@ -35,7 +35,7 @@ body {
   font-style: italic;
   text-align: center;
   line-height: 2rem;
-  padding-right: 1.2rem;
+  padding-right: 3rem;
 }
 
 .logo {
@@ -71,12 +71,12 @@ a {
 }
 
 /* #nav-bar */
- a:visited {
+a:visited {
   color: #060061;
 }
 
 /* #nav-bar */
- a:hover {
+a:hover {
   color: #090083;
 }
 
@@ -220,7 +220,7 @@ footer {
   width: 100%;
   margin: 3rem 0 0;
   padding: 3rem 0 0.7rem;
-  text-align: center;  
+  text-align: center;
 }
 
 footer hr {
@@ -236,10 +236,6 @@ footer hr {
   color: grey;
   font-size: 0.8rem;
 }
-
-
-
-
 
 @media (min-width: 1046px) {
   #header {
@@ -307,11 +303,33 @@ footer hr {
   html {
     font-size: 12px;
   }
+
+  section {
+    padding-top: 15rem;
+  }
 }
 
 @media (max-width: 250px) {
   html {
     font-size: 10px;
+  }
+
+  #desc {
+    margin-top: 16rem;
+  }
+
+  section {
+    padding-top: 16rem;
+  }
+}
+
+@media (max-width: 200px) {
+  html {
+    font-size: 8px;
+  }
+
+  section {
+    padding-top: 18rem;
   }
 }
 
