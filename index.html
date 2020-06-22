@@ -39,7 +39,13 @@
         type="email"
         placeholder="Dejanos tu e-mail"
       />
-      <input type="submit" class="btn" id="submit" value="QUIERO MI TRAJE" />
+      <input
+        type="submit"
+        class="btn"
+        id="submit"
+        value="QUIERO MI TRAJE"
+        onclick="noEnviar(event)"
+      />
     </form>
 
     <section id="que-ofrecemos">
@@ -154,6 +160,10 @@
 
       function aInicio() {
         window.location.href = "#";
+      }
+
+      function noEnviar(event) {
+        event.preventDefault();
       }
     </script>
   </body>
