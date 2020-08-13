@@ -150,9 +150,12 @@
       <a href="no tenemos jeje" id="redes" onclick="cambiarTexto(event)"
         >Redes sociales</a
       >
-      <p class="copyright">Copyright 2020, Altos Trajes.</p>
+      <p class="copyright">Copyright <span id="anio"></span>, Altos Trajes.</p>
     </footer>
     <script>
+      let anio = new Date().getFullYear();
+      document.getElementById("anio").innerHTML = anio;
+
       function cambiarTexto(event) {
         event.preventDefault();
         document.getElementById("redes").innerHTML = "¡No tenemos!";
